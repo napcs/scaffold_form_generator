@@ -1,0 +1,40 @@
+8
+
+dir
+614
+svn://servers.bphogan.com/scaffoldform/trunk/lib
+svn://servers.bphogan.com
+
+
+
+2007-10-30T12:22:33.375000Z
+613
+brianhogan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d2f420bf-76e2-324b-a3e6-541d5c032d89
+
+scaffold_form.rb
+file
+
+
+
+
+2007-10-29T15:21:43.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2007-10-30T12:22:33.375000Z
+613
+brianhogan
+

@@ -1,0 +1,8 @@
+README.txt
+History.txt
+lib/scaffold_form.rb
+scaffold_form_generator.rb
+templates/form.rhtml
+templates/form_scaffolding.rhtml
+templates/view_edit.rhtml
+templates/view_new.rhtml
