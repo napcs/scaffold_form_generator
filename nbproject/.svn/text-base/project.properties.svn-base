@@ -1,6 +1,0 @@
-file.reference.ScaffoldForm-lib=lib
-file.reference.ScaffoldForm-test=test
-main.file=
-source.encoding=UTF-8
-src.dir=${file.reference.ScaffoldForm-lib}
-test.src.dir=${file.reference.ScaffoldForm-test}

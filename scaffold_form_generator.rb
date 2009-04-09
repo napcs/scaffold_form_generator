@@ -10,7 +10,7 @@ class ScaffoldingSandbox
   end
   
   def default_input_block
-    Proc.new { |record, column| "<p><label for=\"#{record}_#{column.name}\">#{column.human_name}</label><br/>\n#{input(record, column.name)}</p>\n" }
+    Proc.new { |record, column| "<%= f.label :#{column.name} %><br/>\n#{input(record, column.name)}</p>\n" }
   end
   
 end
