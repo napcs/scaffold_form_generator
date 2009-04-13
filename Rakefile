@@ -14,7 +14,7 @@ require 'rubygems'
 require 'hoe'
 
 
-Hoe.new('scaffold_form_generator', '1.1.2') do |p|
+Hoe.new('scaffold_form_generator', '1.1.3') do |p|
   p.rubyforge_name = 'scaffoldform'
   p.name = "scaffold_form_generator"
   p.author = 'Brian Hogan'
