@@ -1,5 +1,8 @@
 # -*- ruby -*-
 
+require 'rubygems'
+require 'hoe'
+
 class Hoe
   
   # remove dependency on Hoe
@@ -8,10 +11,6 @@ class Hoe
   end
 end
 
-
-
-require 'rubygems'
-require 'hoe'
 
 
 Hoe.new('scaffold_form_generator', '1.1.3') do |p|
