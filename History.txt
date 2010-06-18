@@ -1,3 +1,5 @@
+==1.1.4 / 2010-06-17
+* removed divs. They format poorly and you end up with invalid markup when you have error fields. Replaced with ordered lists instead. Style with CSS to make it pretty.
 ==1.1.3 / 2009-04-13
 * fixed markup bug and changed paragraphs to divs instead so that error messages nest properly without destroying the flow / creating invalid markup.
 ==1.1.2 / 2009-02-13

@@ -10,7 +10,8 @@ class ScaffoldingSandbox
   end
   
   def default_input_block
-    Proc.new { |record, column| "<div>\n  <%= f.label :#{column.name} %><br/>\n  #{input(record, column.name)}\n</div>\n" }
+    Proc.new { |record, column| %Q{<li><%= f.label :#{column.name} %> #{input(record, column.name)}<li>\n}
+     }
   end
   
 end
@@ -41,7 +42,7 @@ module ActionView::Helpers::ActiveRecordHelper
      record.class.reflect_on_all_associations.each do |a|
       puts a.inspect
       if a.macro == :belongs_to
-        @results += "<p>#{a.klass}<br/><%=f.select #{a.klass}.find(:all).collect {|i| [ p.inspect, p.id ] }, { :include_blank => true }) %>"
+        @results += "<li><label>#{a.klass}<%=f.select #{a.klass}.find(:all).collect {|i| [ p.inspect, p.id ] }, { :include_blank => true }) %></label></li>"
       end
 
     end
